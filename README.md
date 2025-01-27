@@ -12,9 +12,7 @@ The **choking algorithm** determines which peers to upload to based on their rec
 
 The repository includes a game-theoretic analysis of peer strategies. The utility function for a peer is defined as:
 
-\[
-u_i(\mu_i) = d_i(\mu_i, \mu_{-i}) - c(\mu_i)
-\]
+$\[u_i(\mu_i) = d_i(\mu_i, \mu_{-i}) - c(\mu_i)\]$
 
 Where:
 - \( d_i \): Download rate
@@ -32,13 +30,11 @@ The analysis demonstrates:
 This repository includes simulation code to demonstrate the behavior of the choking algorithm under various scenarios:
 - **Heterogeneous Peer Bandwidths**
 - **Homogeneous Peer Groups**
-- **Impact of Optimistic Unchoking**
 
 ## Conclusion
 
 The **BitTorrent choking algorithm** effectively balances:
 - **Fairness:** Incentivizes users to contribute bandwidth.
 - **Speed:** Optimizes connection efficiency.
-- **Resource Utilization:** Encourages exploration of high-speed peers through optimistic unchoking.
 
 This approach ensures a robust and efficient peer-to-peer file-sharing network. 
