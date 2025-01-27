@@ -17,7 +17,7 @@ $u_i(\mu_i) = d_i(\mu_i, \mu_{-i}) - c(\mu_i)$
 Where:
 - $d_i $: Download rate
 - $\mu_i $: Upload bandwidth of peer \( i $
-- $ c(\mu_i) $: Cost function for uploading
+- $c(\mu_i)$: Cost function for uploading
 
 ## Nash Equilibrium
 
