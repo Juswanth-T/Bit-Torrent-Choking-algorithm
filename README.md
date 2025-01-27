@@ -12,12 +12,12 @@ The **choking algorithm** determines which peers to upload to based on their rec
 
 The repository includes a game-theoretic analysis of peer strategies. The utility function for a peer is defined as:
 
-$\[u_i(\mu_i) = d_i(\mu_i, \mu_{-i}) - c(\mu_i)\]$
+$u_i(\mu_i) = d_i(\mu_i, \mu_{-i}) - c(\mu_i)$
 
 Where:
-- \( d_i \): Download rate
-- \( \mu_i \): Upload bandwidth of peer \( i \)
-- \( c(\mu_i) \): Cost function for uploading
+- $d_i $: Download rate
+- $\mu_i $: Upload bandwidth of peer \( i $
+- $ c(\mu_i) $: Cost function for uploading
 
 ## Nash Equilibrium
 
